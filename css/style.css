@@ -1,0 +1,484 @@
+/*Pour les buttons d'accuiel tete de la page.*/ 
+.aut{
+	color: #FFFFFF;
+}
+nav.ncop ul{
+	color: white;
+	background: #020302;
+	padding-left: 550px;
+}
+nav.ncop ul li {
+	text-decoration: none;
+	list-style-type: none;
+}
+.dow{
+	padding: 0px;
+
+}
+.dow2{
+	padding: 0px;
+
+}
+.isc{
+	width: 250px;
+	height: 150px;
+
+
+}
+.tsc{
+	padding: 20px;
+	color: white;
+
+}
+
+
+.tcrip{
+	padding: 20px;
+	color: white;
+}
+
+.dfg{
+	color: white;
+}
+
+.How{
+
+	color: white;
+}
+
+.Crip{
+
+	color: white;
+}
+html {
+	background:url(file:///C:/Sublime%20Text%203/Mon%20site/img/Background.png);
+	
+  	background-size: 100%;
+  	background-color: black;
+  	background-clip: 100%
+
+}
+.esl{
+	width: 20px;
+  	height: 20px;
+  	margin-left: 20px;
+  	border: none;
+
+
+
+}
+.es{
+	width: 20px;
+  	height: 50px;
+  	margin-left: 20px;
+  	border: none;
+
+
+}
+
+
+.glet{
+	padding-left: 425px;
+
+
+}
+
+.gleti{
+	padding-left: 40px;
+
+
+}
+
+.imag{
+
+	width: 250px;
+	height: 450px;
+	display: block;
+	padding-top: 20px;
+	margin: 0 auto;
+	border-radius: 10px;
+	border-image: 10px;
+}
+
+.imagi{
+	width: 250px;
+	height: 450px;
+	display: block;
+	padding-top: 20px;
+	margin: 0 auto;
+	border-radius: 10px;
+	border-image: 10px;
+}
+
+
+.dfg{
+	text-decoration-style: solid;
+	padding-left: 20px;
+
+}
+.gn {
+
+	padding-left: 100px;
+
+}
+.gni {
+
+	padding-left: 350px;
+
+}
+
+
+.btngi a{
+	text-decoration: none;
+}
+
+.btng a{
+	text-decoration: none;
+}
+
+h5{
+	text-decoration: none;
+	color: white;
+	padding: 20px 0;
+}
+
+
+
+*, ::before, ::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+	width: 400px; 
+	height: 100px;
+	padding-left: 10px;
+}
+
+
+
+  
+
+
+
+
+.btng{
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	width: 500px;
+	height: 530px;
+	margin: 0 padding-left;
+	background: #0A0A0A;
+	border: 5px solid black;
+	text-decoration: none;	/* Désactiver les decorations avec none ou modifier les textes */ 
+	padding: 0 20px 20px 20px;
+	font-family: Arial;
+	size: 100px;
+
+}
+
+
+.btngi{
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	width: 1000px;
+	height: 2000px;
+	margin: 0 padding-left;
+	background: #0A0A0A;
+	border: 5px solid black;
+	text-decoration: none;	/* Désactiver les decorations avec none ou modifier les textes */ 
+	padding: 0 20px 20px 20px;
+	font-family: Arial;
+	size: 100px;
+
+}
+
+
+
+
+.btn{
+	width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 70px;
+    cursor: pointer;
+}
+
+.btn :not(:nth-child(3)) {
+  border-right: 1px solid #333;
+
+}
+
+.contenu {
+  height: 70%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+}
+
+.contenu h3 {
+  padding: 20px;
+}
+
+.contenu hr{
+  width: 20px;
+  height: 50px;
+  margin-left: 20px;
+  border: none;
+}
+
+.contenu p{
+  padding: 20px;
+
+}
+
+/* Anim */
+
+
+
+.activeContenu {
+  animation: fade 0.5s forwards;
+}
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+html{
+  font-family: 'Poppins' , sans-serif;
+
+}
+
+body{
+	height: 100px;
+  	background-size: 100%;
+  	background-color: #050505;
+  	background-clip: 100%;
+}
+nav.menu-navd2 ul li {
+	list-style-type: none;
+  	border-radius: 500px;
+	display: inline-block;	/* Alligner les mots */
+	list-style-type: none;	/* Désactiver les listes style (bouton au debut de chaque mot) */
+	padding-left: 400px;
+	 
+}
+
+nav.menu-navd2 ul li a{	/* Le lien de L'objet à modifier */
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 50px;
+	background: #00FFFF;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    border-bottom: 1px solid #333;
+	color: #f1f1f1;	/* La couleur */
+	text-decoration: none;	/* Désactiver les decorations avec none ou modifier les textes */ 
+	padding: 10px;	/* Changer la taille du background */
+	padding-left: 15px;
+	font-size: 20px;	/* Changer la taille des mots */
+	font-family: Arial;
+}
+
+nav.menu-navd2 ul li:hover a{
+	color: #FFFFFF;
+	background-color: #005E5E;
+	transition: 0.3s all; /* Temps de transition des couleurs */
+}
+
+nav.menu-navd ul li {
+	list-style-type: none;
+  	border-radius: 500px;
+	display: inline-block;	/* Alligner les mots */
+	list-style-type: none;	/* Désactiver les listes style (bouton au debut de chaque mot) */
+	padding-left: 400px;
+	 
+}
+
+nav.menu-navd ul li a{	/* Le lien de L'objet à modifier */
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 50px;
+	background: #0737FF;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    border-bottom: 1px solid #333;
+	color: #f1f1f1;	/* La couleur */
+	text-decoration: none;	/* Désactiver les decorations avec none ou modifier les textes */ 
+	padding: 10px;	/* Changer la taille du background */
+	padding-left: 15px;
+	font-size: 20px;	/* Changer la taille des mots */
+	font-family: Arial;
+}
+
+nav.menu-navd ul li:hover a{
+	color: #FFFFFF;
+	background-color: #031975;
+	transition: 0.3s all; /* Temps de transition des couleurs */
+}
+
+nav.menu-nav ul li { 
+	list-style-type: none;
+  	border-radius: 500px;
+	display: inline-block;	/* Alligner les mots */
+	list-style-type: none;	/* Désactiver les listes style (bouton au debut de chaque mot) */
+	padding-left: 10px;
+}
+
+nav.menu-nav ul li a{	/* Le lien de L'objet à modifier */
+	border-radius: 50px;
+	background: #333333;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    border-bottom: 1px solid #333;
+	color: #f1f1f1;	/* La couleur */
+	text-decoration: none;	/* Désactiver les decorations avec none ou modifier les textes */ 
+	padding: 10px;	/* Changer la taille du background */
+	padding-left: 25px;
+	font-size: 20px;	/* Changer la taille des mots */
+	font-family: Arial;
+}
+
+nav.menu-nav ul li:hover a{
+	color: #FFFFFF;
+	background-color: #1C1C1C;
+	transition: 0.3s all; /* Temps de transition des couleurs */
+}
+
+ Pour les buttons d'accuiel pied de la page. */ 
+nav.Autre-nav ul li.bt a{
+	color: #fff;	/* La couleur */
+	text-decoration: none;	/* Désactiver les decorations avec none ou modifier les textes */
+	background-color: #FFCD01; 
+	padding: 5px;	/* Changer la taille du background */
+	font-size: 10px;	/* Changer la taille des mots */
+}
+
+nav.Autre-nav ul li.bt
+{	
+	display: inline-block;	
+	list-style-type: none;
+}
+
+nav.Autre-nav ul li.bt:hover a{
+	color: #FFCD01;
+	background-color: #BD9801;
+	transition: 0.3s all; /* Temps de transition des couleurs */
+	text-align: center;  
+}
+
+
+    
+
+
+
+
+/*p.Welcome{
+	color: black;
+	font-weight: bold;
+}
+
+p.yo{
+	color: black;
+}
+
+a{
+	color: blue;
+
+}
+
+}*/
+
+
+
+header 
+{	
+	align-items: flex-end;
+	justify-content: space-between;
+	
+
+
+}
+
+
+p.Welcome{
+	display: flex;
+	text-align: left;
+	font-size: 25px;
+
+}
+
+
+nav.container ul{
+	padding-left: 550px;
+	padding-bottom: 10px;
+
+}
+
+nav.container ul li { 
+	list-style-type: none;
+  	border-radius: 0px;
+	display: inline-block;	/* Alligner les mots */
+	list-style-type: none;	/* Désactiver les listes style (bouton au debut de chaque mot) */
+	padding-left: 10px;
+}
+
+nav.container ul li a{	/* Le lien de L'objet à modifier */
+	border-radius: 0px;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    border-bottom: 5px solid #333;
+	color: #f1f1f1;	/* La couleur */
+	text-decoration: none;	/* Désactiver les decorations avec none ou modifier les textes */ 
+	padding: 5px;	/* Changer la taille du background */
+	padding-left: 5px;
+	font-size: 20px;	/* Changer la taille des mots */
+	font-family: Arial;
+}
+
+nav.container ul li:hover a{
+	color: #FFFFFF;
+	background-color: #1C1C1C;
+	transition: 0.3s all; /* Temps de transition des couleurs */
+}
+
+.onglet{
+	width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 70px;
+    cursor: pointer;
+}
+
+.onglet :not(:nth-child(3)) {
+  border-right: 1px solid #333;
+
+}
+
+.active  {
+  background:  #1C1C1C;
+  color: #f1f1f1;
+  transition: all 0.3s ease;
+  padding-right : 10px;	
+  animation: fade 0.5s forwards; 
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
